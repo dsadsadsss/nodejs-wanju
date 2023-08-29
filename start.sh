@@ -11,9 +11,10 @@ export NEZHA_KEY='xxx'
 export NEZHA_PORT='443'
 export NEZHA_TLS='1'
 
-#设置app参数（默认x-ra-y参数，如果你更该了下载地址，需要修改UUID和VPATH）
+#设置app参数（默认x-ra-y参数不能更改，只有改变下载地址，才能修改UUID和VPATH）
 export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
 export VPATH='vls'
+#下面这个就是优选IP，可以更换
 export CF_IP='cdn.xn--b6gac.eu.org'
 
 ## ===========================================设置x-ra-y下载地址（建议直接使用默认）===============================
