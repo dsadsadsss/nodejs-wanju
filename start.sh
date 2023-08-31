@@ -13,6 +13,8 @@ export NEZHA_TLS='1'
 
 #下面是优选IP，可以更改
 export CF_IP='cdn.xn--b6gac.eu.org'
+#下面是节点名称，方便区分不同节点，可以更改
+export SUB_NAME='bbn'
 
 ## ===========================================设置x-ra-y下载地址（建议直接使用默认）===============================
 #下面2个与后面下载的x-ray要一致，不要随便更改，如果你更该了下载地址，需要同时更改这2个参数
@@ -22,6 +24,8 @@ export VPATH='vls'
 export URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w'
 # 设置arm64_64-X-A-R-Y下载地址（带内置配置版本）
 export URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w'
+
+## ===========================================参数设置完毕，启动程序===============================
 if command -v curl &>/dev/null; then
         DOWNLOAD_CMD="curl -sL"
     # Check if wget is available
