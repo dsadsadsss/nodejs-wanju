@@ -1,6 +1,8 @@
 #!/bin/bash
 ## ==========设置各参数（不需要的可以删掉或者前面加# ）==================
 
+#export SERVER_PORT='3000'
+
 # 设置ARGO参数 (如果设置，注意把前面的# 去掉，如果不设置，默认启用临时隧道)
 # export TOK='xxxxx'
 # export ARGO_DOMAIN='xxxxx'
