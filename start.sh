@@ -16,7 +16,7 @@ export NEZHA_TLS='1'
 export UUID='xxx'
 export VPATH='xxx'
 export CF_IP='xxx'
-export SUB_NAME='deepnote'
+export SUB_NAME='waifly'
 
 #设置订阅上传地址
 export SUB_URL='xxxxx'
