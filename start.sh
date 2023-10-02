@@ -30,6 +30,14 @@ export SUB_URL='xxxxx'
 # 设置启动玩具平台原程序，senver.jar 原启动文件改名
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar --port=46522'
 
+# 设置x86_64-argo下载地址
+ URL_CF=='https://github.com/dsadsadsss/1/releases/download/11/argo-linuxamd'
+
+# 设置x86_64-NEZHA下载地址
+ URL_NEZHA='https://github.com/dsadsadsss/1/releases/download/11/nez'
+
+# 设置x86_64-bot下载地址
+ URL_BOT='https://github.com/dsadsadsss/1/releases/download/11/kano-yuan-UUID'
 ## ===========================================参数设置完毕=============================================
 
 ## ===========================================启动应用程序=============================================
