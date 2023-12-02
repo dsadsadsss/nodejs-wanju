@@ -15,10 +15,10 @@ export NEZHA_TLS='1'
 export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
 export VPATH='vls'
 export CF_IP='cdn.xn--b6gac.eu.org'
-export SUB_NAME='bbn'
+export SUB_NAME='bot-hosting'
 
 #设置订阅上传地址
-#export SUB_URL=''
+SUB_URL=https://sadsadewqeqw-sub.hf.space/upload-3e9126ae-5492-471b-9a91-11a4dbd640c2
 
 # 设置启动玩具平台原程序，senver.jar 原启动文件改名
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar --port=46522'
