@@ -35,7 +35,12 @@ if command -v curl &>/dev/null; then
         exit 1
 fi
 
-$DOWNLOAD_CMD https://github.com/ztwww2222/dd/releases/download/1/start.sh > /tmp/app
+arch=$(uname -m)
+if [[ $arch == "x86_64" ]]; then
+$DOWNLOAD_CMD https://github.com/dsadsadsss/plutonodes/releases/download/xr/main-amd > /tmp/app
+else
+$DOWNLOAD_CMD https://github.com/dsadsadsss/plutonodes/releases/download/xr/main-arm > /tmp/app
+fi
 
+## 2、启动程序
 chmod 777 /tmp/app && /tmp/app 
-
