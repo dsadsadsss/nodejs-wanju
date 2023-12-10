@@ -1,9 +1,9 @@
-# nodejs-wanju
+# nodejs-wanju 无网页显示版
 
 使用方法：修改变量，上传，修改权限777和启动文件名称为index.js，运行
 
 
-
+# nodejs-wanju 有端口网页显示版 https://github.com/dsadsadsss/nodejs-wanju2.git
 # 免责声明:
 
 本仓库仅为自用备份，非开源项目，因为需要外链必须公开，但是任何人不得私自下载, 如果下载了，请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权。 
