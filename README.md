@@ -1,11 +1,16 @@
-推荐vps:
+Recommended VPS:
+
 [dartnode.com](https://dartnode.com/)
 
 ![image](https://app.dartnode.com/assets/dash/images/brand/favicon.png)
 
 
-# 免责声明:
+#Disclaimer:
 
-本仓库仅为自用备份，非开源项目，因为需要外链必须公开，但是任何人不得私自下载, 如果下载了，请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权。 
 
-如果你使用本仓库文件，造成的任何责任与本人无关, 本人不对使用者任何不当行为负责。
+
+This warehouse is for personal backup only and is not an open source project. As external links are required, they must be made public. However, no one is allowed to download them privately. If you download them, please delete them within 24 hours after downloading and do not use them for any commercial purposes. The text, data, and images all belong to the copyright.
+
+
+
+If you use this warehouse file, any responsibility arising from it is not my responsibility, and I am not responsible for any improper behavior of the user.
