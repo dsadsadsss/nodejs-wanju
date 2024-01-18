@@ -1,11 +1,5 @@
-# 此为uuunodejs-wanju 无网页显示版
-
-使用方法：修改变量，上传，修改权限777和启动文件名称为index.js，运行
-
-
-# nodejs-wanju 有端口网页显示版 
-
-https://github.com/dsadsadsss/nodejs-wanju2.git
+推荐vps:
+[dartnode.com](https://dartnode.com/)
 
 
 # 免责声明:
