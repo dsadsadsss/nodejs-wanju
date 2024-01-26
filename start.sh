@@ -1,6 +1,8 @@
 #!/bin/bash
+
 # 设置固定隧道参数,默认端口vless:8002，vmess:8001 (如果不设置，默认启用临时隧道，端口自动，无需手动设置)
-export TOK=''
+# json或token,支持直接复制全部，如cloudflared.exe service install eyxxx，json获取地址https://fscarmen.cloudflare.now.cc
+export TOK='' 
 export ARGO_DOMAIN=''
 
 #设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
@@ -19,7 +21,6 @@ export SUB_NAME='bbn'
 # 启动玩具原程序，把原游戏文件改名senver.jar
 # export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar'
 # 默认不开启，需要开启请去掉前面的#号，启动原游戏后，不显示日志
-
 
 if command -v curl &>/dev/null; then
         DOWNLOAD_CMD="curl -sL"
