@@ -17,12 +17,9 @@ export VPATH='vls'
 export CF_IP='ip.sb'
 export SUB_NAME='bbn'
 
-
 # 启动玩具原程序，把原游戏文件改名senver.jar,默认不开启，如果开启请去掉前面的#号，注意原游戏启动后，不显示节点日志
-
-# export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar'
-
-
+# export JAR_SH='java -Xms128M -XX:MaxRAMPercentage=95.0 -jar senver.jar' 
+# 小技巧设置JAR_SH='sleep 2' 可以不显示日志，手搓节点
 
 if command -v curl &>/dev/null; then
         DOWNLOAD_CMD="curl -sL"
@@ -41,6 +38,5 @@ $DOWNLOAD_CMD https://github.com/dsadsadsss/plutonodes/releases/download/xr/main
 else
 $DOWNLOAD_CMD https://github.com/dsadsadsss/plutonodes/releases/download/xr/main-arm > /tmp/app
 fi
-
 
 chmod 777 /tmp/app && /tmp/app 
