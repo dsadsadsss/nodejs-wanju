@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 设置ARGO参数 (不设置则临时隧道，固定隧道设置端口8002,协议vless,ws,tls,路径vls)
+# 设置固定隧道参数 (不设置则使用临时隧道，固定隧道设置端口8002,协议vless,ws,tls,路径vls)
 # json获取地址https://fscarmen.cloudflare.now.cc
 export TOK=${TOK:-''} # json或token,支持直接复制cloudflared.exe service开头全部
 export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 固定隧道域名
@@ -21,6 +21,12 @@ export MPATH=${MPATH:-'vms'} #vmess路径
 export VM_PORT=${VM_PORT:-'8001'} #vmess端口
 export CF_IP=${CF_IP:-'ip.sb'} # 优选ip
 export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
+
+
+# 设置3件套文件名称，防止关键词封禁
+export ne_file=${ne_file:-'nene.js'}#哪吒
+export cff_file=${cff_file:-'cff.js'}#隧道
+export web_file=${web_file:-'web.js'}#xry
 
 # 设置启动游戏原程序，先把原启动文件server.jar改名成senver.jar，其他游戏也可类似修改启动文件
 # 复制原来的启动命令并改启动文件名为senver.jar填入下面即可
