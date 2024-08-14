@@ -1,19 +1,23 @@
-const { exec } = require('child_process');
+const { spawn, execSync } = require('child_process');
 
-const command = 'chmod +x ./start.sh && ./start.sh';
+// 给予 start.sh 脚本执行权限
+execSync('chmod +x ./start.sh');
 
-exec(command, (error, stdout, stderr) => {
-  if (error) {
-    console.error(`Error: ${error.message}`);
-    return;
-  }
-  
-  if (stderr) {
-    console.error(`stderr: ${stderr}`);
-    return;
-  }
+// 启动脚本
+const process = spawn('./start.sh', [], { shell: true });
 
-  console.log(`stdout: ${stdout}`);
+process.stdout.on('data', (data) => {
+  console.log(`${data}`);
 });
 
+process.stderr.on('data', (data) => {
+  console.error(`${data}`);
+});
 
+process.on('close', (code) => {
+  console.log(`child process exited with code ${code}`);
+});
+
+process.on('error', (error) => {
+  console.error(`Error: ${error.message}`);
+});
