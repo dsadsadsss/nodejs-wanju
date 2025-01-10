@@ -11,6 +11,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "express": "latest",
     "child_process": "^1.0.2"
   },
   "engines": {
