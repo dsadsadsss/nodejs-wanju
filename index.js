@@ -3,7 +3,7 @@ const fs = require('fs');
 const http = require('http');
 
 // 创建 HTTP 服务器
-const PORT = process.env.SERVER_PORT || process.env.PORT || 3000;
+const PORT = process.env.SERVER_PORT2 || process.env.PORT2 || 3000;
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello World\n');
