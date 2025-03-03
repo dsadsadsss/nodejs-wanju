@@ -1,21 +1,20 @@
 {
-  "name": "process-monitor",
+  "name": "jsr-ay",
   "version": "1.0.0",
-  "description": "Node.js process monitor with HTTP server",
+  "description": "nodejs-for-r-ay",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "process",
-    "monitor",
-    "http",
-    "server"
-  ],
-  "author": "",
+  "repository": "",
+  "author": "MITs",
   "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=14"
   }
 }
+
