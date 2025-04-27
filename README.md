@@ -1,6 +1,6 @@
 特点:不需安装依赖，无端口
 
-使用方法：上传index.js,package.json,start.sh三个文件，确保启动文件名称未index.js,启动即可
+使用方法：上传index.js,package.json,start.sh三个文件，确保启动文件名称为index.js,启动即可
 
 # 免责声明:
 
