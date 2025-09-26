@@ -1,4 +1,4 @@
-特点:不需安装依赖，无端口
+Docker部署设置端口3000
 
 使用方法：上传index.js,package.json,start.sh三个文件，确保启动文件名称为index.js,启动即可
 
